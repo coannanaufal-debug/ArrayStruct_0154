@@ -42,11 +42,9 @@ int main() {
         cout << "Data index ke-" << i << " = ";
         cin >> kamu[i];
     }
-
-    //mengisi dengan menggunakan perulangan for
-    for (int i = 0; 1 <= 4; i++)
+    cout << endl;
+    // menampilkan dengan menggunakan perulangan for
+    for (int i = 0; i<= 4; i++)
     {
-            cout << "Data index ke-" << i << " = ";
-            cin >> kamu[1];
+        cout <<"Data ke-" << 1+1 << " = " <<kamu[1] <<endl;
     }
-    
