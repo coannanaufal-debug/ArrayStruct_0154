@@ -45,3 +45,8 @@ int main() {
 
     //mengisi dengan menggunakan perulangan for
     for (int i = 0; 1 <= 4; i++)
+    {
+            cout << "Data index ke-" << i << " = ";
+            cin >> kamu[1];
+    }
+    
