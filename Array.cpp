@@ -15,7 +15,9 @@ int main() {
     aku[1] = 200;
     cout << endl;
     cout << "Data pada index 1 = " << aku[1] << endl;
-    
+
     // Mengisi Satu per Satu
     cout << "Data index 0 = ";
     cin >> kamu[0];
+cout << "Data index 1 = ";
+    cin >> kamu[1];
