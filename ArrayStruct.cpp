@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+#include <string>
+
+struct detailAlamat
+{
+    string desa;
+    string kota;
+};
+
+struct Orang
+{
+    string nama;
+    detailAlamat alamat;
+    int umur;
+};
+int main() {
+    Orang mhs[3];
+
+ for (int i = 0; i <=3; i++)
+    {
+     cout << "Nama : ";
+    getline( cin, mhs[i].nama);
+    cout << "Alamat Desa : ";
+    getline(cin, mhs[i].alamat.desa);
+    cout << "alamat kota :";
+    getline(cin, mhs[i].alamat.kota);
+    cout << "Umur : ";
+    cin >> mhs[i].umur;
+    cout << endl;
+    cin.ignore();
+    }
+
+    for (int i = 0; i <= 3; i++)
+{
+// tampilkan
+cout << " data penduduk : " << endl;
+cout << " Nama : " << mhs[i].nama << endl;
+cout << " Alamat : " << mhs[i].alamat.desa << endl;
+cout << " Alamat : " << mhs[i].alamat.kota << endl;
+cout << " Umur : " << mhs[i].umur << endl;
+}
+}
