@@ -25,8 +25,8 @@ int main() {
     cin >> kamu[2];
     cout << "Data index 3 = ";
     cin >> kamu[3];
-    out << "Data index 4 = ";
-    cin >> kamu[4]
+    cout << "Data index 4 = ";
+    cin >> kamu[4];
 
    // Menampilkan Satu per Satu
     cout << "Data Pertama = " << kamu[0] << endl;
@@ -35,3 +35,10 @@ int main() {
     cout << "Data Keempat = " << kamu[3] << endl;
     cout << "Data Kelima = " << kamu[4] << endl;
     cout << endl;
+
+    // Mengisi dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Data index ke-" << i << " = ";
+        cin >> kamu[i];
+    }
