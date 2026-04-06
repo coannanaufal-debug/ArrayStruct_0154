@@ -19,5 +19,7 @@ int main() {
     // Mengisi Satu per Satu
     cout << "Data index 0 = ";
     cin >> kamu[0];
-cout << "Data index 1 = ";
+    cout << "Data index 1 = ";
     cin >> kamu[1];
+    cout << "Data index 2 = ";
+    cin >> kamu[2];
