@@ -48,3 +48,4 @@ int main() {
     {
         cout <<"Data ke-" << 1+1 << " = " <<kamu[1] <<endl;
     }
+}
